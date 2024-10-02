@@ -2,8 +2,8 @@ export default getResponseFromAPI;
 function getResponseFromAPI() {
   let success = true;
   if (success) {
-    return Promise.resolve('Sucesss');
+    return Promise.resolve("Sucesss");
   } else {
-    return Promise.reject('Failed')
+    return Promise.reject("Failed");
   }
 }
